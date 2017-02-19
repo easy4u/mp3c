@@ -19,9 +19,7 @@ $ pip install pydub
 import os
 import sys
 from pydub import AudioSegment
-from os import listdir
 from os.path import basename
-from os.path import isfile, join
 
 def compress_mp3_file(mp3_file_path):
     if (not mp3_file_path.endswith(".mp3")): return
